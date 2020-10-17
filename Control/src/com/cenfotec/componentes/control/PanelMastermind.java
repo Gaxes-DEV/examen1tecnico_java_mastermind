@@ -146,7 +146,6 @@ public class PanelMastermind extends javax.swing.JPanel {
             for (int i = 0; i < 4; i++) {
                 palabraAdivinar += colores[(int) (Math.random() * (colores.length - 1) + 1)];
             }
-            System.out.println(palabraAdivinar);
         }
     }//GEN-LAST:event_jButton1ActionPerformed
 
